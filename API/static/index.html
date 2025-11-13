@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style.css">
+    <title>Relatório Semestral</title>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Relatório Semestral Eixo do cerne 1:</h1>
+        </header>
+
+        <main>
+            <form action="#" method="get">
+                <div class="form-group">
+                    <label for="ano">Ano:</label>
+                    <input type="number" id="ano" name="ano" placeholder="Ex: 2025" min="2000" max="2050" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="semestre">Semestre:</label>
+                    <select id="semestre" name="semestre" required>
+                        <option value="" disabled selected>Selecione o semestre</option>
+                        <option value="1">1º Semestre</option>
+                        <option value="2">2º Semestre</option>
+                    </select>
+                </div>
+
+                <button type="submit">Gerar</button>
+            </form>
+        </main>
+    </div>
+
+</body>
+</html>
